@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": false,
+    "lib": [
+        "es2017",
+        "dom",
+        "scripthost"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "qterm",
+  "version": "0.3.22",
+  "description": "Make your node cli apps look cute",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc-watch --onSuccess \"node ./dist/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^2.0.2",
+    "console": "^0.7.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "stream": "^0.0.2",
+    "terminal-link": "^2.1.0"
+  }
+}
